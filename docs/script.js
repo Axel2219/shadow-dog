@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
     const CANVAS_HEIGHT = canvas.height = 600;
     const CANVAS_WIDTH = canvas.width = 600;
     const player = new Image();
-    player.src = '../assets/shadow_dog.png';
+    player.src = 'shadow_dog.png';
     player.slot = 'back';
     let teclas = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
     let x = 0;
